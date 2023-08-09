@@ -1,0 +1,120 @@
+/* Reset some default styles */
+nav {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(17, 17, 78);
+}
+body header {
+  background-color: rgb(30, 30, 39);
+  color: #eccfff;
+  font-family: 'poppings', sans-serif;
+}
+body header img {
+  width: 6.5%;
+  
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(180, 180, 219);
+  font-size: 1.02rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search input and button styles */
+#searchInput {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Results container styles */
+#results {
+  margin-top: 20px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.movie p {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+.poster img {
+    max-width: 100px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ... */
