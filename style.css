@@ -65,6 +65,7 @@ h1 {
 
 /* Search input and button styles */
 #searchInput {
+  margin: 0 7%;
   width: 70%;
   padding: 10px;
   font-size: 16px;
@@ -80,6 +81,7 @@ h1 {
   border: none;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+  margin: 0% -7%;
 }
 
 /* Results container styles */
